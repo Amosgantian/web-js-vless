@@ -14,7 +14,7 @@ const errcb = (...args) => console.error.bind(this, ...args);
 const UUID = process.env.UUID || '43836a55-3f1c-4054-bd63-7e70387fa9ce'; // 默认 UUID，建议修改
 const uuid = UUID.replace(/-/g, "");
 const DOMAIN = process.env.DOMAIN || 'example.com'; // 默认域名，建议修改
-const NAME = process.env.NAME || 'My-Websocket-Proxy'; // 默认名称，建议修改
+const NAME = process.env.NAME || 'webserver'; // 默认名称，建议修改
 const PORT = process.env.PORT || 5000; // 默认端口，建议修改
 
 // 验证 UUID 格式
