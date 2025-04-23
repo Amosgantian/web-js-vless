@@ -1,22 +1,20 @@
 {
-  "name": "webserver",
-  "version": "1.0.0",
-  "description": "A simple web server",
-  "main": "web.js",
-  "scripts": {
-    "start": "node web.js"
-  },
-  "keywords": [
-    "websocket",
-    "proxy",
-    "http"
-  ],
-  "author": "You",
-  "license": "MIT",
-  "dependencies": {
-    "ws": "^8.16.0"
-  },
-  "engines": {
-    "node": ">=16"
+    "name": "node-ws",
+    "version": "1.0.0",
+    "description": "Node.js Server",
+    "main": "web.js",
+    "author": "",
+    "repository": "",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+      "start": "node web.js"
+    },
+    "dependencies": {
+      "ws": "^8.14.2",
+      "axios": "^1.6.2"
+    },
+    "engines": {
+      "node": ">=14"
+    }
   }
-}
